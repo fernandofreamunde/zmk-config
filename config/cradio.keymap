@@ -1,5 +1,4 @@
 // Copyright (c) 2022 The ZMK Contributors
-// o
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
@@ -68,8 +67,8 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  7       │  8       │  9       │          │   │ HOME     | PAGE DWN | PAGE UP  │ END      │  :       │
-            &kp INS    &kp N7     &kp N8     &kp N9     &trans         &kp HOME    &none      &none     &kp END   &kp COLON
+        //│          │  7       │  8       │  9       │          │   │ HOME     | PAGE DWN | PAGE UP  │ END      │  :       │
+            &trans     &kp N7     &kp N8     &kp N9     &trans         &kp HOME    &none      &none     &kp END   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LARW   &kp DARW   &kp UARW    &kp RARW   &kp SEMI
